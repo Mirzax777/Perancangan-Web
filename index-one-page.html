@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas One Page Website</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* STYLE HEADER START */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 30px;
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.btn-button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-button:hover {
+    background-color: white;
+    background: black;
+    border-color:black ;
+}
+
+.btn-button:active {
+    transform: scale(0.95);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.introduction {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+.about-me {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    background-color: #E0E0E0;
+}
+
+
+.detail {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #C0C0C0;
+}
+
+
+footer {
+    text-align: right;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <!-- HEADER START -->
+    <header>
+        <div class="nav">
+            <div class="logo">MY WEBSITE</div>
+            
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN CONTENT START -->
+    <div class="main">
+        <div class="introduction">
+            <h1>HOME ATAU INTRIDUCTION</h1>
+            <h1>WEB MIRZA ALFARIZI</h1>
+            <h2>Website Mirza Alfarizi</h2>
+            <button class="btn-button">CLICK HERE</button>
+        </div>
+        <div class="about-me">
+            <h1>ABOUT ME</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur numquam soluta non, delectus quasi fugit accusamus repellendus iusto sed quaerat quos odit voluptatum optio libero omnis aut recusandae? Accusantium, alias.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nihil sequi dignissimos non, quibusdam natus maxime illo voluptas, nam placeat ex voluptatem facere error rerum alias eveniet. Itaque, praesentium quibusdam!</p>
+        </div>
+        <div class="detail">
+            <h1>DETAIL ATAU KONTAK</h1>
+            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente ad necessitatibus non incidunt molestias fugit deleniti vero modi voluptatibus earum placeat id animi, perferendis iste esse dolor veritatis. Officiis, pariatur!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quasi et accusantium voluptates laudantium ab maxime ipsa, sit totam cum, nisi dolore molestiae tenetur porro amet? Laborum perspiciatis aspernatur illum.</p>
+        </div>
+    </div>
+    <!-- MAIN CONTENT END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <p>&copy; 2025 Mirza Alfarizi</p>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+</html>
