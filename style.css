@@ -1,53 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    background-color: black;
 }
 
-body {
-    padding-top: 100px; /* Adds space at the top to account for the header height */
+table {
+    width: 75%;
+    padding: 50px;
+    margin-left: 250px;
 }
 
-.container {
-    width: 1024px;
-    margin-left: 300px;
-    margin-top: 30px;
+.kolom-text {
+    text-align: left;
+    padding: 10px;
 }
 
-.header {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    height: 100px; /* Height of the header */
-    width: 1024px;
-    background: gray;
-}
-
-.header a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
+.kolom-gambar {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 20px;
 }
 
-.header a:hover {
-    background: #ddd;
-    color: black;
+.main-header{
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: white;
 }
 
-#atas {
-    height: 750px;
-    background: blue;
+.main-menu-style {
+    color: orangered;
 }
 
-#bawah {
-    height: 750px;
-    background: peachpuff;
-}
-
-#footer {
-    height: 550px;
-    background: palegreen;
+.sub-menu {
+    color: white;
 }
